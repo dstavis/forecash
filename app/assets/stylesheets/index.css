@@ -4,7 +4,7 @@
   max-width: 500px;
 }
   .centered.thin{
-    margin-left: 25%;
+    margin-left: 33%;
     width: 200px;
   }
 
@@ -30,24 +30,42 @@
 
 
 /* LIST */
+#list-container{
+  margin-bottom: 30px;
+}
+
+.month{
+  width: 458px;
+  text-align: center;
+}
+
+.monthly-total {
+  float: right;
+}
+
 .list{
   margin-left: 20px;
+  width: 100%;
 }
 
 .amount{
   font-weight: bold;
 }
 
-  .inflow{
-   color: green;
-  }
+.inflow{
+ color: green;
+}
 
-  .outflow{
-    color: red;
-  }
+.outflow{
+  color: red;
+}
 
 .button-orange{
   background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.pure-table-horizontal th{
+  border-bottom: none;
 }
 
 /* MEDIA QUERIES */
@@ -56,6 +74,10 @@
 @media (max-width: 530px) {
   .list{
     margin-left: 0;
+  }
+
+  .month{
+    width: 100%;
   }
 
   .form{
